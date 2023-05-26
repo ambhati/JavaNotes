@@ -1,12 +1,4 @@
-### anver 
+## mohammad anwar
 ```
-aarif anver ji aslam ji 
+my name is aslam mohammad
 ```
-
-# aarif
-```
-
-```
-* 1223
-
-1. bshghghvf
