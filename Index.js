@@ -9,6 +9,8 @@
 
 //const { log } = require("console")
 
+//const { log } = require("console")
+
 // //string to number
 // console.log(str, Number(str))
 // console.log(Myage, Number(Myage))
@@ -49,7 +51,7 @@ if(mark > 75){
 }else if (mark < 33){
     console.log("Fail")
 }else{
-    console.log("enter your vaild number");
+    console.log("enter your valid number");
 }
 
 
@@ -62,8 +64,10 @@ if (age > 55 && age <=90){
     console.log(" Adolescence")
 }else if (age >= 5 && age <= 12){
     console.log("Childhood")
-}else{
+}else if (age <= 5){
     console.log("Infancy")
+}else {
+    console.log("enter your valid age");
 }
 
 // ternery opreter   ? 
