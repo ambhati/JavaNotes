@@ -1,5 +1,5 @@
 ### Third Assignment
-`##1. Using prompt ask user below questions and then print these values in console`
+`1. Using prompt ask user below questions and then print these values in console`
 .What is your name
 let yourName = prompt("what is your name")
 console.log(yourName)
@@ -11,13 +11,13 @@ let berthYear = Number(prompt("What is your birth year"))
 console.log(2023 - berthYear)
 Now print name, batch name and age in the console. Let's say if birth year of the user is 1991 then output should be his/her current age 31 years
 
-`##2. Print numbers like 3, 6, 9, 12, 15 till number is less than 100`
+`2. Print numbers like 3, 6, 9, 12, 15 till number is less than 100`
 for (let i = 3; i <= 100;i++){
 if( i % 3 == 0 ){
     console.log(i)
 }
 }
-`##3. Difference between truthy and falsy values ?`
+`3. Difference between truthy and falsy values ?`
 ans. truthy values:- veh value jiska answar True aata he truthy value kahlati he.
      example:- falsy value ke alawa sabhi true value hoti he.  
     falsy values:- veh value jiska answar false aata he falsy value kahlati he.
@@ -26,7 +26,7 @@ ans. truthy values:- veh value jiska answar True aata he truthy value kahlati he
 
 
 
-`##5. Ask user a question "Do you want to study Nodejs"? `
+`5. Ask user a question "Do you want to study Nodejs"? `
 If user click on OK button then print Yes else print No in the console
 let isStudy = confirm("Do you want to study Nodejs")
 if(isStudy){
@@ -35,7 +35,7 @@ if(isStudy){
     console.log("No");
 }
 
-`##6. Take one number. If number is odd and less than 20 then in alert box show Yes and else show No in alert box.`
+`6. Take one number. If number is odd and less than 20 then in alert box show Yes and else show No in alert box.`
 
 let i = 15
 if(i % 2 == 1 && i < 20){
@@ -45,7 +45,7 @@ else{
     alert("no")
 }
 
-`##7. If rating is 5 then print Excellent. If rating is 4 then print Good. If rating is 3 then print Average. If rating is 2 then print Poor. If rating is 1 then print Very Poor else print Invalid rating`
+`7. If rating is 5 then print Excellent. If rating is 4 then print Good. If rating is 3 then print Average. If rating is 2 then print Poor. If rating is 1 then print Very Poor else print Invalid rating`
 
 let rating = 2
 if(rating == 5){
